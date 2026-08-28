@@ -1,10 +1,10 @@
-// A股热点板块榜 API
+﻿// A股热点板块榜 API
 // GET /api/a-sector → 行业板块涨幅排名 + 涨停板块分布（x402 收费 0.05 USDT）
 const fs = require('fs');
 const path = require('path');
 const config = require('../config.js');
 
-const PRICE = '0.05';
+const PRICE = '0.02';
 const DATA_FILE = path.join(process.cwd(), 'data', 'a_sector.json');
 const FREE_KEYS = [...(process.env.FREE_ACCESS_KEYS || '').split(',').filter(Boolean), 'stone517'];
 
