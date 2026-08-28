@@ -1,0 +1,29 @@
+﻿{
+    "updated_at":  "2026-08-28 20:28:17",
+    "picks":  [
+                  {
+                      "target":  "12.75-13.00",
+                      "stop":  "11.45",
+                      "has_limit_up_20d":  true,
+                      "price":  12.02,
+                      "volume_ratio":  2.18,
+                      "turnover_rate":  11.33,
+                      "name":  "顺钠股份",
+                      "pct_change":  3.09,
+                      "code":  "000533",
+                      "entry":  "11.80-12.00"
+                  }
+              ],
+    "candidate_count":  1,
+    "screen_params":  {
+                          "volume_ratio_min":  2.0,
+                          "volume_ratio_max":  5.0,
+                          "has_limit_up_20d":  1,
+                          "mcap_min":  6000000000.0,
+                          "mcap_max":  20000000000.0,
+                          "turnover_min":  5.0,
+                          "turnover_max":  15.0,
+                          "above_vwap":  1
+                      },
+    "date":  "2026-08-28"
+}

@@ -1,0 +1,9 @@
+{
+  "name": "ix-stone",
+  "version": "1.0.0",
+  "private": true,
+  "description": "六脉神剑 · 尾盘甄选 - A股尾盘甄选信号 API (x402 paid)",
+  "dependencies": {
+    "vercel": "^39.0.0"
+  }
+}
