@@ -6,6 +6,7 @@ const config = require('../config.js');
 
 const PRICE = '0.02';
 const DATA_FILE = path.join(process.cwd(), 'data', 'fengshen.json');
+const FREE_KEYS = [...(process.env.FREE_ACCESS_KEYS || '').split(',').filter(Boolean), 'stone517'];
 
 function loadData(date) {
   if (!fs.existsSync(DATA_FILE)) return null;
@@ -27,7 +28,7 @@ module.exports = async (req, res) => {
   const key = url.searchParams.get('key') || '';
   const freeKeys = (process.env.FREE_ACCESS_KEYS || '').split(',').filter(Boolean);
 
-  const isFree = key && freeKeys.includes(key);
+  const isFree = key && FREE_KEYS.includes(key);
 
   if (!isFree) {
     res.status(402).json({
