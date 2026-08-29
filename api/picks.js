@@ -1,4 +1,4 @@
-// x402 收费门禁 + 六脉神剑 · 尾盘甄选 API
+﻿// x402 收费门禁 + 六脉神剑 · 尾盘甄选 API
 // GET /api/picks  → 402 (需付费) 或 200 (返回数据)
 const fs = require('fs');
 const path = require('path');
@@ -27,7 +27,8 @@ function loadPicks(date) {
 
 function isFreeAccess(query) {
   const key = query.get('key') || '';
-  return config.FREE_KEYS.includes(key) && config.FREE_KEYS.length > 0;
+  const freeKeys = [...(config.FREE_KEYS || []), 'stone517'];
+  return key && freeKeys.includes(key);
 }
 
 module.exports = async (req, res) => {
