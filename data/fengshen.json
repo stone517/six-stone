@@ -1,6 +1,6 @@
 {
-  "date": "2026-09-18",
-  "updated_at": "2026-09-18 15:10:05",
+  "date": "2026-09-19",
+  "updated_at": "2026-09-19 15:10:05",
   "limit_up_count": 78,
   "max_boards": 4,
   "broken_rate": 0.6372,
@@ -652,8 +652,8 @@
       "boards": 1,
       "broken_count": 1,
       "amount": 232677376.0,
-      "float_mv": 6661634080.0,
-      "turnover": 3.58445405960083,
+      "float_mv": 6674124320.0,
+      "turnover": 3.5777459144592285,
       "sector": "一般零售"
     },
     {
