@@ -1,6 +1,6 @@
 {
-  "date": "2026-09-30",
-  "updated_at": "2026-09-30 15:10:08",
+  "date": "2026-10-01",
+  "updated_at": "2026-10-01 15:10:06",
   "limit_up_count": 52,
   "max_boards": 7,
   "broken_rate": 0.3953,
@@ -685,8 +685,8 @@
       "boards": 1,
       "broken_count": 1,
       "amount": 323471632.0,
-      "float_mv": 3810964840.63,
-      "turnover": 8.941768646240234,
+      "float_mv": 3808115755.7200003,
+      "turnover": 8.948458671569824,
       "sector": "汽车零部"
     },
     {
